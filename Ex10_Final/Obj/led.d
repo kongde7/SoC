@@ -1,0 +1,9 @@
+.\Obj\led.o: ..\BSP\source\led.c
+.\Obj\led.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\led.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\led.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\led.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\led.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\led.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\led.o: ..\BSP\include\bmboard.h
+.\Obj\led.o: ..\BSP\include\led.h

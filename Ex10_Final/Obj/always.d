@@ -1,0 +1,9 @@
+.\Obj\always.o: Source\Always.c
+.\Obj\always.o: C:\Keil_v4\ARM\RV31\Inc\string.h
+.\Obj\always.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\always.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\always.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\always.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\always.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\always.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\always.o: ..\BSP\include\LCD.h

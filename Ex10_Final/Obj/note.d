@@ -1,0 +1,9 @@
+.\Obj\note.o: Source\Note.c
+.\Obj\note.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\note.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\note.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\note.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\note.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\note.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\note.o: C:\Keil_v4\ARM\RV31\Inc\stdio.h
+.\Obj\note.o: ..\BSP\include\LCD.h

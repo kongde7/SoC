@@ -1,0 +1,40 @@
+*** Creating Trace Output File '.\Obj\Ex10_Final.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_lpc17xx.o"'
+### List of Objects: adding '".\obj\always.o"'
+### List of Objects: adding '".\obj\date.o"'
+### List of Objects: adding '".\obj\home.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\more.o"'
+### List of Objects: adding '".\obj\other.o"'
+### List of Objects: adding '".\obj\time.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_lpc17xx.o"'
+### List of Objects: adding '".\obj\bsp_config.o"'
+### List of Objects: adding '".\obj\joystick.o"'
+### List of Objects: adding '".\obj\key.o"'
+### List of Objects: adding '".\obj\lcd.o"'
+### List of Objects: adding '".\obj\led.o"'
+### List of Objects: adding '".\obj\24lc02.o"'
+### List of Objects: adding '".\obj\command.o"'
+### List of Objects: adding '".\obj\lpc1768_i2c.o"'
+### List of Objects: adding '".\obj\lpc1768_rtc.o"'
+### List of Objects: adding '".\obj\lpc1768_timer.o"'
+### List of Objects: adding '".\obj\lpc1768_uart_polling.o"'
+### List of Objects: adding '".\obj\monitor.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_lpc17xx.o" ".\obj\always.o" ".\obj\date.o" ".\obj\home.o" ".\obj\main.o" ".\obj\more.o" ".\obj\other.o" ".\obj\time.o" ".\obj\core_cm3.o" ".\obj\system_lpc17xx.o" ".\obj\bsp_config.o" ".\obj\joystick.o" ".\obj\key.o" ".\obj\lcd.o" ".\obj\led.o" ".\obj\24lc02.o" ".\obj\command.o" ".\obj\lpc1768_i2c.o" ".\obj\lpc1768_rtc.o" ".\obj\lpc1768_timer.o" ".\obj\lpc1768_uart_polling.o" ".\obj\monitor.o" --strict --scatter ".\Obj\Ex10_Final.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\Ex10_Final.map" -o .\Obj\Ex10_Final.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Ex10_Final.axf'
+### ADS-LD Command File: '.\Obj\Ex10_Final.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Ex10_Final.lnp', Handle=0x000010AC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Ex10_Final.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

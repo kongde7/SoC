@@ -1,0 +1,13 @@
+.\Obj\command.o: ..\Drivers\source\command.c
+.\Obj\command.o: C:\Keil_v4\ARM\RV31\Inc\string.h
+.\Obj\command.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\command.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\command.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\command.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\command.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\command.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\command.o: ..\Drivers\include\monitor.h
+.\Obj\command.o: ..\BSP\include\led.h
+.\Obj\command.o: ..\Drivers\include\lpc1768_uart.h
+.\Obj\command.o: ..\Drivers\include\command.h
+.\Obj\command.o: ..\Drivers\include\lpc1768_rtc.h

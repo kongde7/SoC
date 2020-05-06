@@ -1,0 +1,13 @@
+.\Obj\other.o: Source\Other.c
+.\Obj\other.o: C:\Keil_v4\ARM\RV31\Inc\stdio.h
+.\Obj\other.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\other.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\other.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\other.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\other.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\other.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\other.o: ..\Drivers\include\24LC02.h
+.\Obj\other.o: ..\Drivers\include\lpc1768_i2c.h
+.\Obj\other.o: ..\Drivers\include\lpc1768_rtc.h
+.\Obj\other.o: ..\BSP\include\LCD.h
+.\Obj\other.o: Source\User.h

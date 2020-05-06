@@ -1,0 +1,10 @@
+.\Obj\joystick.o: ..\BSP\source\joystick.c
+.\Obj\joystick.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\joystick.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\joystick.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\joystick.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\joystick.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\joystick.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\joystick.o: ..\BSP\include\bmboard.h
+.\Obj\joystick.o: ..\Drivers\include\lpc1768_timer.h
+.\Obj\joystick.o: ..\BSP\include\joystick.h

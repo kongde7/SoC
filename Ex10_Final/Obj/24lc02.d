@@ -1,0 +1,9 @@
+.\Obj\24lc02.o: ..\Drivers\source\24LC02.c
+.\Obj\24lc02.o: ..\Drivers\include\lpc1768_i2c.h
+.\Obj\24lc02.o: ..\CMSIS\inc\LPC17xx.h
+.\Obj\24lc02.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\24lc02.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\24lc02.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\24lc02.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\24lc02.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\24lc02.o: ..\Drivers\include\24LC02.h

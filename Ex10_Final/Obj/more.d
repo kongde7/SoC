@@ -1,0 +1,15 @@
+.\Obj\more.o: Source\More.c
+.\Obj\more.o: C:\Keil_v4\ARM\RV31\Inc\stdio.h
+.\Obj\more.o: C:\Keil_v4\ARM\RV31\Inc\string.h
+.\Obj\more.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\more.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\more.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\more.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\more.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\more.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\more.o: ..\Drivers\include\lpc1768_rtc.h
+.\Obj\more.o: ..\BSP\include\joystick.h
+.\Obj\more.o: ..\Drivers\include\24LC02.h
+.\Obj\more.o: ..\Drivers\include\lpc1768_i2c.h
+.\Obj\more.o: ..\BSP\include\LCD.h
+.\Obj\more.o: Source\User.h

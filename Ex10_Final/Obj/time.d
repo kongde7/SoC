@@ -1,0 +1,13 @@
+.\Obj\time.o: Source\Time.c
+.\Obj\time.o: C:\Keil_v4\ARM\RV31\Inc\stdio.h
+.\Obj\time.o: C:\Keil_v4\ARM\RV31\Inc\string.h
+.\Obj\time.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\time.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\time.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\time.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\time.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\time.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\time.o: ..\Drivers\include\lpc1768_rtc.h
+.\Obj\time.o: ..\BSP\include\joystick.h
+.\Obj\time.o: ..\BSP\include\LCD.h
+.\Obj\time.o: Source\User.h

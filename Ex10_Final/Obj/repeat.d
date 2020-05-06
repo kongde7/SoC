@@ -1,0 +1,9 @@
+.\Obj\repeat.o: Source\Repeat.c
+.\Obj\repeat.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\repeat.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\repeat.o: C:\Keil\ARM\RV31\Inc\stdint.h
+.\Obj\repeat.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\repeat.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\repeat.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\repeat.o: C:\Keil\ARM\RV31\Inc\stdio.h
+.\Obj\repeat.o: ..\BSP\include\LCD.h

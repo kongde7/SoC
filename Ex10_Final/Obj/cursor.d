@@ -1,0 +1,12 @@
+.\Obj\cursor.o: Source\CURSOR.c
+.\Obj\cursor.o: C:\Keil\ARM\RV31\Inc\stdio.h
+.\Obj\cursor.o: C:\Keil\ARM\RV31\Inc\string.h
+.\Obj\cursor.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\cursor.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\cursor.o: C:\Keil\ARM\RV31\Inc\stdint.h
+.\Obj\cursor.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\cursor.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\cursor.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\cursor.o: ..\Drivers\include\lpc1768_rtc.h
+.\Obj\cursor.o: ..\BSP\include\joystick.h
+.\Obj\cursor.o: ..\BSP\include\LCD.h

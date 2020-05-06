@@ -1,0 +1,12 @@
+.\Obj\lcd.o: ..\BSP\source\LCD.c
+.\Obj\lcd.o: ..\CMSIS\inc\lpc17xx.h
+.\Obj\lcd.o: ..\CMSIS\inc\core_cm3.h
+.\Obj\lcd.o: C:\Keil_v4\ARM\RV31\Inc\stdint.h
+.\Obj\lcd.o: ..\CMSIS\inc\core_cmInstr.h
+.\Obj\lcd.o: ..\CMSIS\inc\core_cmFunc.h
+.\Obj\lcd.o: ..\CMSIS\inc\system_LPC17xx.h
+.\Obj\lcd.o: ..\BSP\include\LCD.h
+.\Obj\lcd.o: ..\BSP\include\bmboard.h
+.\Obj\lcd.o: ..\BSP\include\ssd1298.h
+.\Obj\lcd.o: ..\BSP\include\fonts_5x7.h
+.\Obj\lcd.o: ..\BSP\include\fonts_16x24.h

@@ -1,0 +1,588 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\2019嵌入式实验\大作业汇总\确认\2017020900071_孔德奇_超级万年历2.0\Ex10_Final\Ex10_Final.uvproj
+Project File Date:  12/25/2019
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Always.c...
+compiling Date.c...
+Source\Date.c(28): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(87): warning:  #223-D: function "Always" declared implicitly
+Source\Date.c(160): warning:  #223-D: function "Home" declared implicitly
+Source\Date.c(181): warning:  #223-D: function "Time" declared implicitly
+Source\Date.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(209): warning:  #223-D: function "Home" declared implicitly
+compiling Home.c...
+Source\Home.c(19): warning:  #223-D: function "E2PROM_ReadSeq" declared implicitly
+Source\Home.c(66): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(79): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(88): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(125): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(151): warning:  #223-D: function "Always" declared implicitly
+Source\Home.c(198): warning:  #223-D: function "Date" declared implicitly
+compiling main.c...
+Source\main.c(40): warning:  #223-D: function "Always" declared implicitly
+Source\main.c(44): warning:  #223-D: function "Home" declared implicitly
+Source\main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(77): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(91): warning:  #223-D: function "Date" declared implicitly
+Source\main.c(94): warning:  #223-D: function "Time" declared implicitly
+Source\main.c(97): warning:  #223-D: function "More" declared implicitly
+compiling More.c...
+Source\More.c(72): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(119): warning:  #223-D: function "Time" declared implicitly
+Source\More.c(131): warning:  #223-D: function "Night" declared implicitly
+Source\More.c(133): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(137): error:  #165: too few arguments in function call
+Source\More.c(141): warning:  #223-D: function "Recover" declared implicitly
+Source\More.c(145): warning:  #223-D: function "Factory" declared implicitly
+compiling Other.c...
+Source\Other.c(35): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(50): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(61): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling Time.c...
+Source\Time.c(18): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c(76): warning:  #223-D: function "Always" declared implicitly
+Source\Time.c(141): warning:  #223-D: function "Date" declared implicitly
+Source\Time.c(162): warning:  #223-D: function "More" declared implicitly
+Source\Time.c(188): warning:  #223-D: function "Home" declared implicitly
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+compiling BSP_Config.c...
+compiling joystick.c...
+compiling key.c...
+..\BSP\include\key.h(5): warning:  #1295-D: Deprecated declaration EINT0_IRQHandler - give arg types
+..\BSP\include\key.h(6): warning:  #1295-D: Deprecated declaration EINT3_IRQHandler - give arg types
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff1" was declared but never referenced
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff2" was declared but never referenced
+..\BSP\source\key.c(50): warning:  #177-D: variable "led" was declared but never referenced
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+compiling led.c...
+compiling 24LC02.c...
+..\Drivers\source\24LC02.c(25): warning:  #223-D: function "memcpy" declared implicitly
+..\Drivers\source\24LC02.c(36): warning:  #223-D: function "memcpy" declared implicitly
+compiling command.c...
+..\Drivers\include\command.h(8): warning:  #1295-D: Deprecated declaration led_process - give arg types
+..\Drivers\include\command.h(9): warning:  #1295-D: Deprecated declaration date_process - give arg types
+..\Drivers\include\command.h(10): warning:  #1295-D: Deprecated declaration time_process - give arg types
+..\Drivers\source\command.c(26): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(44): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(55): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(57): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(59): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(109): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(134): warning:  #223-D: function "atoi" declared implicitly
+compiling lpc1768_i2c.c...
+compiling lpc1768_rtc.c...
+compiling lpc1768_timer.c...
+..\Drivers\source\lpc1768_timer.c(31): warning:  #940-D: missing return statement at end of non-void function "Timer_Init"
+compiling lpc1768_uart_polling.c...
+compiling monitor.c...
+Target not created
+compiling More.c...
+Source\More.c(72): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(119): warning:  #223-D: function "Time" declared implicitly
+Source\More.c(131): warning:  #223-D: function "Night" declared implicitly
+Source\More.c(133): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(137): warning:  #223-D: function "Nextday" declared implicitly
+Source\More.c(141): warning:  #223-D: function "Recover" declared implicitly
+Source\More.c(145): warning:  #223-D: function "Factory" declared implicitly
+Source\More.c - 0 Error(s), 7 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Always.c...
+compiling Date.c...
+Source\Date.c(28): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(87): warning:  #223-D: function "Always" declared implicitly
+Source\Date.c(160): warning:  #223-D: function "Home" declared implicitly
+Source\Date.c(181): warning:  #223-D: function "Time" declared implicitly
+Source\Date.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(209): warning:  #223-D: function "Home" declared implicitly
+compiling Home.c...
+Source\Home.c(19): warning:  #223-D: function "E2PROM_ReadSeq" declared implicitly
+Source\Home.c(66): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(79): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(88): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(125): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(151): warning:  #223-D: function "Always" declared implicitly
+Source\Home.c(198): warning:  #223-D: function "Date" declared implicitly
+compiling main.c...
+Source\main.c(40): warning:  #223-D: function "Always" declared implicitly
+Source\main.c(44): warning:  #223-D: function "Home" declared implicitly
+Source\main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(77): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(91): warning:  #223-D: function "Date" declared implicitly
+Source\main.c(94): warning:  #223-D: function "Time" declared implicitly
+Source\main.c(97): warning:  #223-D: function "More" declared implicitly
+compiling More.c...
+Source\More.c(72): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(119): warning:  #223-D: function "Time" declared implicitly
+Source\More.c(131): warning:  #223-D: function "Night" declared implicitly
+Source\More.c(133): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(137): warning:  #223-D: function "Nextday" declared implicitly
+Source\More.c(141): warning:  #223-D: function "Recover" declared implicitly
+Source\More.c(145): warning:  #223-D: function "Factory" declared implicitly
+compiling Other.c...
+Source\Other.c(35): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(50): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(61): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling Time.c...
+Source\Time.c(18): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c(76): warning:  #223-D: function "Always" declared implicitly
+Source\Time.c(141): warning:  #223-D: function "Date" declared implicitly
+Source\Time.c(162): warning:  #223-D: function "More" declared implicitly
+Source\Time.c(188): warning:  #223-D: function "Home" declared implicitly
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+compiling BSP_Config.c...
+compiling joystick.c...
+compiling key.c...
+..\BSP\include\key.h(5): warning:  #1295-D: Deprecated declaration EINT0_IRQHandler - give arg types
+..\BSP\include\key.h(6): warning:  #1295-D: Deprecated declaration EINT3_IRQHandler - give arg types
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff1" was declared but never referenced
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff2" was declared but never referenced
+..\BSP\source\key.c(50): warning:  #177-D: variable "led" was declared but never referenced
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+compiling led.c...
+compiling 24LC02.c...
+..\Drivers\source\24LC02.c(25): warning:  #223-D: function "memcpy" declared implicitly
+..\Drivers\source\24LC02.c(36): warning:  #223-D: function "memcpy" declared implicitly
+compiling command.c...
+..\Drivers\include\command.h(8): warning:  #1295-D: Deprecated declaration led_process - give arg types
+..\Drivers\include\command.h(9): warning:  #1295-D: Deprecated declaration date_process - give arg types
+..\Drivers\include\command.h(10): warning:  #1295-D: Deprecated declaration time_process - give arg types
+..\Drivers\source\command.c(26): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(44): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(55): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(57): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(59): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(109): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(134): warning:  #223-D: function "atoi" declared implicitly
+compiling lpc1768_i2c.c...
+compiling lpc1768_rtc.c...
+compiling lpc1768_timer.c...
+..\Drivers\source\lpc1768_timer.c(31): warning:  #940-D: missing return statement at end of non-void function "Timer_Init"
+compiling lpc1768_uart_polling.c...
+compiling monitor.c...
+linking...
+Program Size: Code=13592 RO-data=6596 RW-data=124 ZI-data=612  
+".\Obj\Ex10_Final.axf" - 0 Error(s), 61 Warning(s).
+compiling More.c...
+Source\More.c(72): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(119): warning:  #223-D: function "Time" declared implicitly
+Source\More.c(131): warning:  #223-D: function "Night" declared implicitly
+Source\More.c(133): warning:  #223-D: function "Always" declared implicitly
+Source\More.c(137): warning:  #223-D: function "Nextday" declared implicitly
+Source\More.c(141): warning:  #223-D: function "Recover" declared implicitly
+Source\More.c(145): warning:  #223-D: function "Factory" declared implicitly
+Source\More.c - 0 Error(s), 7 Warning(s).
+compiling main.c...
+Source\main.c(41): warning:  #223-D: function "Always" declared implicitly
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 3 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Always.c...
+compiling Date.c...
+Source\Date.c(28): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(87): warning:  #223-D: function "Always" declared implicitly
+Source\Date.c(160): warning:  #223-D: function "Home" declared implicitly
+Source\Date.c(181): warning:  #223-D: function "Time" declared implicitly
+Source\Date.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(209): warning:  #223-D: function "Home" declared implicitly
+compiling Home.c...
+Source\Home.c(19): warning:  #223-D: function "E2PROM_ReadSeq" declared implicitly
+Source\Home.c(66): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(79): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(88): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(125): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(151): warning:  #223-D: function "Always" declared implicitly
+Source\Home.c(198): warning:  #223-D: function "Date" declared implicitly
+compiling main.c...
+Source\User.h(6): error:  #130: expected a "{"
+Source\main.c(19): warning:  #12-D: parsing restarts here after previous syntax error
+Source\main.c(27): error:  #20: identifier "DelayCounter" is undefined
+Source\main.c(40): error:  #20: identifier "BackColor" is undefined
+Source\main.c(45): warning:  #223-D: function "Home" declared implicitly
+Source\main.c(56): error:  #20: identifier "X" is undefined
+Source\main.c(56): error:  #20: identifier "Y" is undefined
+Source\main.c(56): error:  #20: identifier "XL" is undefined
+Source\main.c(56): error:  #20: identifier "YL" is undefined
+Source\main.c(56): error:  #20: identifier "TextColor" is undefined
+Source\main.c(61): error:  #20: identifier "X" is undefined
+Source\main.c(61): error:  #20: identifier "Y" is undefined
+Source\main.c(61): error:  #20: identifier "XL" is undefined
+Source\main.c(61): error:  #20: identifier "YL" is undefined
+Source\main.c(70): error:  #20: identifier "DOCK" is undefined
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(88): error:  #20: identifier "DOCK" is undefined
+Source\main.c(92): warning:  #223-D: function "Date" declared implicitly
+Source\main.c(95): warning:  #223-D: function "Time" declared implicitly
+Source\main.c(98): warning:  #223-D: function "More" declared implicitly
+compiling More.c...
+Source\More.c(8): error:  #5: cannot open source input file "More.h": No such file or directory
+compiling Other.c...
+Source\Other.c(35): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(50): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(61): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling Time.c...
+Source\Time.c(18): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c(76): warning:  #223-D: function "Always" declared implicitly
+Source\Time.c(141): warning:  #223-D: function "Date" declared implicitly
+Source\Time.c(162): warning:  #223-D: function "More" declared implicitly
+Source\Time.c(188): warning:  #223-D: function "Home" declared implicitly
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+compiling BSP_Config.c...
+compiling joystick.c...
+compiling key.c...
+..\BSP\include\key.h(5): warning:  #1295-D: Deprecated declaration EINT0_IRQHandler - give arg types
+..\BSP\include\key.h(6): warning:  #1295-D: Deprecated declaration EINT3_IRQHandler - give arg types
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff1" was declared but never referenced
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff2" was declared but never referenced
+..\BSP\source\key.c(50): warning:  #177-D: variable "led" was declared but never referenced
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+compiling led.c...
+compiling 24LC02.c...
+..\Drivers\source\24LC02.c(25): warning:  #223-D: function "memcpy" declared implicitly
+..\Drivers\source\24LC02.c(36): warning:  #223-D: function "memcpy" declared implicitly
+compiling command.c...
+..\Drivers\include\command.h(8): warning:  #1295-D: Deprecated declaration led_process - give arg types
+..\Drivers\include\command.h(9): warning:  #1295-D: Deprecated declaration date_process - give arg types
+..\Drivers\include\command.h(10): warning:  #1295-D: Deprecated declaration time_process - give arg types
+..\Drivers\source\command.c(26): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(44): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(55): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(57): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(59): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(109): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(134): warning:  #223-D: function "atoi" declared implicitly
+compiling lpc1768_i2c.c...
+compiling lpc1768_rtc.c...
+compiling lpc1768_timer.c...
+..\Drivers\source\lpc1768_timer.c(31): warning:  #940-D: missing return statement at end of non-void function "Timer_Init"
+compiling lpc1768_uart_polling.c...
+compiling monitor.c...
+Target not created
+compiling More.c...
+Source\User.h(6): error:  #130: expected a "{"
+Source\More.c(17): warning:  #12-D: parsing restarts here after previous syntax error
+Source\More.c(18): error:  #20: identifier "ON" is undefined
+Source\More.c(25): error:  #20: identifier "TextColor" is undefined
+Source\More.c(30): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(32): error:  #20: identifier "X" is undefined
+Source\More.c(33): error:  #20: identifier "Y" is undefined
+Source\More.c(34): error:  #20: identifier "XL" is undefined
+Source\More.c(35): error:  #20: identifier "YL" is undefined
+Source\More.c(39): error:  #20: identifier "X" is undefined
+Source\More.c(40): error:  #20: identifier "Y" is undefined
+Source\More.c(41): error:  #20: identifier "XL" is undefined
+Source\More.c(42): error:  #20: identifier "YL" is undefined
+Source\More.c(46): error:  #20: identifier "X" is undefined
+Source\More.c(47): error:  #20: identifier "Y" is undefined
+Source\More.c(48): error:  #20: identifier "XL" is undefined
+Source\More.c(49): error:  #20: identifier "YL" is undefined
+Source\More.c(53): error:  #20: identifier "X" is undefined
+Source\More.c(54): error:  #20: identifier "Y" is undefined
+Source\More.c(55): error:  #20: identifier "XL" is undefined
+Source\More.c(56): error:  #20: identifier "YL" is undefined
+Source\More.c(58): error:  #20: identifier "XL" is undefined
+Source\More.c(67): error:  #20: identifier "XL" is undefined
+Source\More.c(68): error:  #20: identifier "DOCK" is undefined
+Source\More.c(69): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(71): error:  #20: identifier "BackColor" is undefined
+Source\More.c(77): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(97): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(117): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(119): warning:  #223-D: function "Time" declared implicitly
+Source\More.c(129): error:  #20: identifier "LOCATION" is undefined
+Source\More.c(131): error:  #20: identifier "ON" is undefined
+Source\More.c - 30 Error(s), 2 Warning(s).
+compiling More.c...
+Source\More.c - 0 Error(s), 0 Warning(s).
+compiling Home.c...
+Source\Home.c(19): warning:  #223-D: function "E2PROM_ReadSeq" declared implicitly
+Source\Home.c(66): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(79): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(88): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(125): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(151): warning:  #223-D: function "Always" declared implicitly
+Source\Home.c(198): warning:  #223-D: function "Date" declared implicitly
+Source\Home.c - 0 Error(s), 8 Warning(s).
+compiling Home.c...
+Source\Home.c(21): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(68): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(81): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(90): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(129): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+compiling Home.c...
+Source\Home.c(21): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(68): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(81): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(90): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(126): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+Source\Home.c(128): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling Home.c...
+Source\Home.c(21): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(68): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(81): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(90): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(129): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling main.c...
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+linking...
+Program Size: Code=13592 RO-data=6596 RW-data=124 ZI-data=612  
+".\Obj\Ex10_Final.axf" - 0 Error(s), 8 Warning(s).
+compiling Home.c...
+Source\Home.c(21): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(68): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(81): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(90): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(127): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(129): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+compiling More.c...
+Source\More.c - 0 Error(s), 0 Warning(s).
+compiling Other.c...
+Source\Other.c(35): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(50): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(61): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c - 0 Error(s), 4 Warning(s).
+compiling Date.c...
+Source\Date.c(28): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(87): warning:  #223-D: function "Always" declared implicitly
+Source\Date.c(160): warning:  #223-D: function "Home" declared implicitly
+Source\Date.c(181): warning:  #223-D: function "Time" declared implicitly
+Source\Date.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(209): warning:  #223-D: function "Home" declared implicitly
+Source\Date.c - 0 Error(s), 6 Warning(s).
+compiling Date.c...
+Source\Date.c(29): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c - 0 Error(s), 2 Warning(s).
+compiling Time.c...
+Source\Time.c(18): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c(76): warning:  #223-D: function "Always" declared implicitly
+Source\Time.c(141): warning:  #223-D: function "Date" declared implicitly
+Source\Time.c(162): warning:  #223-D: function "More" declared implicitly
+Source\Time.c(188): warning:  #223-D: function "Home" declared implicitly
+Source\Time.c - 0 Error(s), 5 Warning(s).
+compiling Time.c...
+Source\Time.c(19): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c - 0 Error(s), 1 Warning(s).
+compiling Always.c...
+Source\Always.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+Source\main.c(75): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+Source\main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(77): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+Source\main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(77): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c - 0 Error(s), 2 Warning(s).
+compiling Home.c...
+Source\Home.c(122): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(182): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(191): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(228): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c - 0 Error(s), 4 Warning(s).
+compiling Home.c...
+Source\Home.c(141): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(222): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(231): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+compiling Home.c...
+Source\Home.c(141): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(222): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(231): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c - 0 Error(s), 6 Warning(s).
+compiling More.c...
+Source\More.c(11): error:  #81: more than one storage class may not be specified
+Source\More.c - 1 Error(s), 0 Warning(s).
+compiling More.c...
+Source\More.c - 0 Error(s), 0 Warning(s).
+compiling More.c...
+Source\More.c - 0 Error(s), 0 Warning(s).
+compiling Other.c...
+Source\Other.c(35): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(45): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(50): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(60): warning:  #223-D: function "HowMany" declared implicitly
+Source\Other.c(69): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c - 0 Error(s), 5 Warning(s).
+compiling Other.c...
+Source\Other.c(36): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(46): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(51): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(70): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c - 0 Error(s), 4 Warning(s).
+compiling Date.c...
+Source\Date.c(29): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c(205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c - 0 Error(s), 2 Warning(s).
+compiling Date.c...
+Source\Date.c(147): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Date.c - 0 Error(s), 2 Warning(s).
+compiling Time.c...
+Source\Time.c(19): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c - 0 Error(s), 1 Warning(s).
+compiling Time.c...
+Source\Time.c(154): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c - 0 Error(s), 1 Warning(s).
+compiling Time.c...
+Source\Time.c(155): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Time.c - 0 Error(s), 1 Warning(s).
+compiling Always.c...
+Source\Always.c - 0 Error(s), 0 Warning(s).
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling Date.c...
+Source\Date.c(147): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling Home.c...
+Source\Home.c(141): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(222): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(231): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling More.c...
+linking...
+Program Size: Code=13608 RO-data=6596 RW-data=124 ZI-data=612  
+".\Obj\Ex10_Final.axf" - 0 Error(s), 8 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling Always.c...
+compiling Date.c...
+Source\Date.c(147): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Date.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling Home.c...
+Source\Home.c(141): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(144): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Home.c(209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(222): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\Home.c(231): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling main.c...
+Source\main.c(74): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Source\main.c(77): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling More.c...
+compiling Other.c...
+Source\Other.c(36): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(46): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(51): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Source\Other.c(70): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling Time.c...
+Source\Time.c(155): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+compiling BSP_Config.c...
+compiling joystick.c...
+compiling key.c...
+..\BSP\include\key.h(5): warning:  #1295-D: Deprecated declaration EINT0_IRQHandler - give arg types
+..\BSP\include\key.h(6): warning:  #1295-D: Deprecated declaration EINT3_IRQHandler - give arg types
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff1" was declared but never referenced
+..\BSP\source\key.c(49): warning:  #177-D: variable "OnOff2" was declared but never referenced
+..\BSP\source\key.c(50): warning:  #177-D: variable "led" was declared but never referenced
+compiling LCD.c...
+..\BSP\source\LCD.c(289): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(308): warning:  #9-D: nested comment is not allowed
+..\BSP\source\LCD.c(440): warning:  #177-D: variable "b" was declared but never referenced
+..\BSP\source\LCD.c(526): warning:  #177-D: variable "b" was declared but never referenced
+compiling led.c...
+compiling 24LC02.c...
+..\Drivers\source\24LC02.c(25): warning:  #223-D: function "memcpy" declared implicitly
+..\Drivers\source\24LC02.c(36): warning:  #223-D: function "memcpy" declared implicitly
+compiling command.c...
+..\Drivers\include\command.h(8): warning:  #1295-D: Deprecated declaration led_process - give arg types
+..\Drivers\include\command.h(9): warning:  #1295-D: Deprecated declaration date_process - give arg types
+..\Drivers\include\command.h(10): warning:  #1295-D: Deprecated declaration time_process - give arg types
+..\Drivers\source\command.c(26): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(44): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+..\Drivers\source\command.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(55): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(57): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(59): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(61): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+..\Drivers\source\command.c(109): warning:  #223-D: function "atoi" declared implicitly
+..\Drivers\source\command.c(134): warning:  #223-D: function "atoi" declared implicitly
+compiling lpc1768_i2c.c...
+compiling lpc1768_rtc.c...
+compiling lpc1768_timer.c...
+..\Drivers\source\lpc1768_timer.c(31): warning:  #940-D: missing return statement at end of non-void function "Timer_Init"
+compiling lpc1768_uart_polling.c...
+compiling monitor.c...
+linking...
+Program Size: Code=13608 RO-data=6596 RW-data=124 ZI-data=612  
+".\Obj\Ex10_Final.axf" - 0 Error(s), 39 Warning(s).

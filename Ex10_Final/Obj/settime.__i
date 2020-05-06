@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\BSP\include -I..\CMSIS\inc -I..\Drivers\include -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -D_LCD_LANDSCAPE -o ".\Obj\settime.o" --omf_browse ".\Obj\settime.crf" --depend ".\Obj\settime.d" "Source\SetTime.c"
