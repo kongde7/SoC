@@ -95,3 +95,6 @@ W = ( d + 2\*m + 3\*(m+1)/5 + y + y/4 - y/100 + y/400 + 1 ) % 7
 
 ### 设置时间
 ![设置时间](https://kongdeqi.oss-cn-shanghai.aliyuncs.com/soc/%E8%AE%BE%E7%BD%AE%E6%97%B6%E9%97%B4.jpg?x-oss-process=image/resize,w_500)
+
+### 效果图
+![效果图](https://kongdeqi.oss-cn-shanghai.aliyuncs.com/soc/20191219_174444.jpg?x-oss-process=image/resize,w_500)
