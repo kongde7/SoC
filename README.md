@@ -1,16 +1,18 @@
-# 基于LPC1768的万年历和实时时钟设计
+# 嵌入式课程设计
 
-基于LPC1768实验开发板，设计并实现一个完整的万年历。实现以下基本功能：
-
-1、板载开关开启后，显示屏会显示当前时间，并且会显示当前所在月份的日历。
-
-2、按下设置按键，屏幕会进入时间调整界面，此时可以进行年、月、日、时、分、秒的调整，若时间调整完毕，按下确定键则可以回到显示当前时间界面。
+基于LPC1768实验开发板，设计并实现一个智能万年历。
 
 ## 功能说明
 
 ### 主页
 
-当板载开关开启后，默认进入主页，显示当前月的日历。并有3个按钮：Curr Month：显示当前月的日历；Last Month：显示上一个月的日历；Next Month：显示下一个月的日历。
+当板载开关开启后，默认进入主页，显示当前月的日历。并有3个按钮：
+
+Curr Month：显示当前月的日历。
+
+Last Month：显示上一个月的日历。
+
+Next Month：显示下一个月的日历。
 
 ![主页](https://kongdeqi.oss-cn-shanghai.aliyuncs.com/soc/%E4%B8%BB%E9%A1%B5.jpg?x-oss-process=image/resize,h_200)
 
@@ -39,7 +41,7 @@ Factory Reset：时间置为出厂设置，方便出错时一键还原。
 ![设置](https://kongdeqi.oss-cn-shanghai.aliyuncs.com/soc/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F%E8%AE%BE%E7%BD%AE%E9%A1%B5.jpg?x-oss-process=image/resize,h_200)
 ![夜间模式](https://kongdeqi.oss-cn-shanghai.aliyuncs.com/soc/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F%E6%95%88%E6%9E%9C%E5%9B%BE.jpg?x-oss-process=image/resize,h_200)
 
-## 设计
+## 设计原理
 
 ### 星期计算
 
@@ -77,9 +79,6 @@ W = ( d + 2\*m + 3\*(m+1)/5 + y + y/4 - y/100 + y/400 + 1 ) % 7
 | void Recover( void )        | 恢复到上一个日期设置。每次设置日期时，上一个日期值储存在E2PROM中。 |
 | void Nextday( void )        | 标记明天有重要事项。将明天的日期值储存在E2PROM中，显示日历时将会有标记。 |
 | void Clear( void )          | 部分清屏。仅清屏日历部分，以便重新打印。 |
-
-| 函数名 | 函数功能 |
-| - | - |
 | void LineX( int x, int y, int len, uint16_t color ) | 画横线。输入起始横坐标、纵坐标、长度、颜色。 |
 | void LineY( int x, int y, int len, uint16_t color ) | 画竖线。输入起始横坐标、纵坐标、长度、颜色。 |
 | void Square( int x, int y, int len, int high, uint16_t color ) | 画矩形。输入起始坐标、长、宽、颜色，用于绘制按钮外框。 |
